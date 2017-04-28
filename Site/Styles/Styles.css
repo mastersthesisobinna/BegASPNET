@@ -1,0 +1,51 @@
+* /*Universal or global selector applies to all page's elements*/
+{
+    font-family: Arial;
+}
+
+
+#PageWrapper /*The # keyword stands for ID selector. Used to style unique page elements. PageWrapper is for the aspx div tag*/
+{
+    width: 844px;
+    margin: auto;
+}
+
+header /*type selector used for page elements styling like p, body, header etc*/
+{
+    background-color: #C0C0C0; /*Silver*/
+    width: 844px; /*Since the header is wrapped inside the div tag with ID PageWrapper. Thus the width shouldn't be more than the width of the DIV tag*/
+    height: 86px;
+}
+
+nav /*For Top navigation element*/
+{
+    width: 844px;
+}
+
+section#MainContent /*Combined type and ID selector. Used to specifically select an element (i.e. section) with the unique ID (MainContent)*/
+{
+    width: 664px; /*844 - 644 is 180px left that can be used for fiting the sidebar element if needed*/
+    float: left;
+}
+
+h1
+{
+    font-size: 20px;
+}
+
+aside /*CSS declaration for styling the page's sidebar element (aside)*/
+{
+    background-color: gray;
+    width: 180px;
+    float: left;
+}
+
+footer
+{
+    background-color: #C0C0C0;
+    width: 844px;
+    clear: both;
+}
+
+
+
