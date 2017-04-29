@@ -25,7 +25,7 @@
                 the coolest music community site on the Internet.
             </p>
             <p>
-                Feel free to have a look around; there are lots of interesting <strong>reviews and concert pictures</strong> to be found here.
+                Feel free to have a <a href="Default.aspx">look around</a>; there are lots of interesting <strong>reviews and concert pictures</strong> to be found here.
             </p>
         </section>
         <aside id="Sidebar">Sidebar Goes Here</aside>

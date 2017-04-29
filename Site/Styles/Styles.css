@@ -22,11 +22,31 @@ nav /*For Top navigation element*/
     width: 844px;
 }
 
+/*#region Main Content*/
 section#MainContent /*Combined type and ID selector. Used to specifically select an element (i.e. section) with the unique ID (MainContent)*/
 {
     width: 664px; /*844 - 644 is 180px left that can be used for fiting the sidebar element if needed*/
     float: left;
 }
+
+    section#MainContent a /*when link is not visited*/
+    {
+        color: #4cff00; /*green*/
+        text-decoration: underline;
+    }
+
+        section#MainContent a:visited /*when link is visited*/
+        {
+            color: #FF0000; /*red*/
+            text-decoration: underline;
+        }
+
+        section#MainContent a:hover /*when mouse hovers link*/
+        {
+            color: #FFA500; /*orange*/
+            text-decoration: underline;
+        }
+/*#endregion*/
 
 h1
 {
@@ -46,6 +66,3 @@ footer
     width: 844px;
     clear: both;
 }
-
-
-
