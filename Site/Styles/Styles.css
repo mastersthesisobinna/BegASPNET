@@ -51,6 +51,8 @@ section#MainContent /*Combined type and ID selector. Used to specifically select
 h1
 {
     font-size: 20px;
+    padding: 0; /*applies to all sides*/
+    margin: 0 0 10px 0; /*T R B L sides aka margin-bottom-width: 10px;*/
 }
 
 aside /*CSS declaration for styling the page's sidebar element (aside)*/
@@ -66,3 +68,8 @@ footer
     width: 844px;
     clear: both;
 }
+
+.Introduction {
+            font-style: italic;
+            color: #003399;
+        }
